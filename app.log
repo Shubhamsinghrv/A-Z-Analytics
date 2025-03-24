@@ -1,0 +1,49 @@
+2025-03-10 10:21:47,406 - INFO - Starting Flask application
+2025-03-10 10:21:47,424 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-10 10:21:47,425 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:23:19,365 - INFO - 47.247.157.210 - - [10/Mar/2025 10:23:19] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-10 10:23:19,499 - INFO - 47.247.157.210 - - [10/Mar/2025 10:23:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 10:23:26,394 - INFO - 47.247.157.210 - - [10/Mar/2025 10:23:26] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-10 10:24:19,478 - ERROR - No files part in the request
+2025-03-10 10:24:19,479 - INFO - 47.247.157.210 - - [10/Mar/2025 10:24:19] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-10 10:25:30,710 - INFO - 47.247.157.210 - - [10/Mar/2025 10:25:30] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-10 10:25:42,587 - ERROR - No files part in the request
+2025-03-10 10:25:42,589 - INFO - 47.247.157.210 - - [10/Mar/2025 10:25:42] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-10 10:27:22,160 - ERROR - Username is required
+2025-03-10 10:27:22,162 - INFO - 47.247.157.210 - - [10/Mar/2025 10:27:22] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-10 10:27:33,274 - INFO - Bucket user-tahavaghela-a16b576c-b68b-4dd6-ac74-a085f608c217 created
+2025-03-10 10:27:33,276 - INFO - File saved to temporary location: /var/tmp/tmpav2bp9so
+2025-03-10 10:27:35,113 - INFO - File /var/tmp/tmpav2bp9so uploaded to user-tahavaghela-a16b576c-b68b-4dd6-ac74-a085f608c217/car_price_dataset.csv.
+2025-03-10 10:27:35,116 - INFO - 47.247.157.210 - - [10/Mar/2025 10:27:35] "POST /upload HTTP/1.1" 200 -
+2025-03-10 10:28:27,982 - INFO - File saved to temporary location: /var/tmp/tmpzqoznxx2
+2025-03-10 10:28:30,378 - INFO - File /var/tmp/tmpzqoznxx2 uploaded to user-tahavaghela-a16b576c-b68b-4dd6-ac74-a085f608c217/House_Price_India.csv.
+2025-03-10 10:28:30,381 - INFO - 47.247.157.210 - - [10/Mar/2025 10:28:30] "POST /upload HTTP/1.1" 200 -
+2025-03-10 10:29:35,899 - INFO - Bucket user-shubham-e0521c94-bf32-4cf7-9752-dab720485d98 created
+2025-03-10 10:29:35,902 - INFO - File saved to temporary location: /var/tmp/tmp3_asgykd
+2025-03-10 10:29:38,290 - INFO - File /var/tmp/tmp3_asgykd uploaded to user-shubham-e0521c94-bf32-4cf7-9752-dab720485d98/House_Price_India.csv.
+2025-03-10 10:29:38,293 - INFO - 47.247.157.210 - - [10/Mar/2025 10:29:38] "POST /upload HTTP/1.1" 200 -
+2025-03-10 10:34:54,910 - INFO - Starting Flask application
+2025-03-10 10:34:54,915 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-10 10:34:54,915 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:35:09,466 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at /opt/conda/lib/python3.10/site-packages/ipykernel/kernelbase.py:304> wait_for=<Future finished result=<Future at 0x...state=pending>> cb=[_chain_future.<locals>._call_set_state() at /opt/conda/lib/python3.10/asyncio/futures.py:392]>
+2025-03-10 10:35:15,671 - INFO - Starting Flask application
+2025-03-10 10:35:15,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-10 10:35:15,680 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:35:25,005 - INFO - 47.247.157.210 - - [10/Mar/2025 10:35:25] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-10 10:35:25,775 - INFO - 47.247.157.210 - - [10/Mar/2025 10:35:25] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-10 10:35:39,886 - INFO - Bucket user-rohan-f1525898-95e7-4ebc-bb14-a10630830bb9 created in ASIA-SOUTH1
+2025-03-10 10:35:39,889 - INFO - File saved to temporary location: /var/tmp/tmpyi6jbf_3
+2025-03-10 10:35:40,188 - INFO - File /var/tmp/tmpyi6jbf_3 uploaded to user-rohan-f1525898-95e7-4ebc-bb14-a10630830bb9/House_Price_India.csv.
+2025-03-10 10:35:40,191 - INFO - 47.247.157.210 - - [10/Mar/2025 10:35:40] "POST /upload HTTP/1.1" 200 -
+2025-03-10 11:48:22,784 - INFO - 64.62.197.25 - - [10/Mar/2025 11:48:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-10 11:48:32,510 - INFO - 64.62.197.30 - - [10/Mar/2025 11:48:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

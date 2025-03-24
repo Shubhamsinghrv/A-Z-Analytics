@@ -1,0 +1,8 @@
+psutil
+streamlit
+pandas
+plotly
+seaborn
+matplotlib
+numpy
+google-cloud-storage

@@ -1,0 +1,10 @@
+fsspec
+gcsfs
+pyarrow
+pandas
+numpy
+scikit-learn
+joblib
+plotly
+flask
+

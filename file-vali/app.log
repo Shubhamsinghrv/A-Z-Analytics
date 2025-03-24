@@ -1,0 +1,269 @@
+2025-03-07 07:27:34,186 - INFO - Starting Flask application
+2025-03-07 07:27:34,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:27:34,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:32:02,490 - INFO - Starting Flask application
+2025-03-07 07:32:02,497 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:32:02,497 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:32:13,636 - INFO - 47.247.157.210 - - [07/Mar/2025 07:32:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:32:13,699 - INFO - 47.247.157.210 - - [07/Mar/2025 07:32:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 07:32:32,591 - INFO - 47.247.157.210 - - [07/Mar/2025 07:32:32] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:32:56,189 - INFO - 54.85.95.187 - - [07/Mar/2025 07:32:56] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:34:35,219 - INFO - File saved to temporary location: /tmp/tmp6j6r_l99
+2025-03-07 07:34:35,355 - INFO - File /tmp/tmp6j6r_l99 uploaded to intelli-ana-bucket/netflix1.csv.
+2025-03-07 07:34:35,355 - ERROR - Error processing file netflix1.csv: name 'os' is not defined
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 97, in upload_file
+    os.remove(file_path)
+NameError: name 'os' is not defined
+
+2025-03-07 07:34:35,356 - INFO - 47.247.157.210 - - [07/Mar/2025 07:34:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:34:49,450 - INFO - File saved to temporary location: /tmp/tmpdhqwfzvg
+2025-03-07 07:34:49,586 - INFO - File /tmp/tmpdhqwfzvg uploaded to intelli-ana-bucket/netflix1.csv.
+2025-03-07 07:34:49,586 - ERROR - Error processing file netflix1.csv: name 'os' is not defined
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 97, in upload_file
+    os.remove(file_path)
+NameError: name 'os' is not defined
+
+2025-03-07 07:34:49,587 - INFO - 47.247.157.210 - - [07/Mar/2025 07:34:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:35:19,630 - INFO - Starting Flask application
+2025-03-07 07:35:19,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:35:19,637 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:35:25,284 - INFO - 65.49.20.66 - - [07/Mar/2025 07:35:25] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:35:27,473 - INFO - 47.247.157.210 - - [07/Mar/2025 07:35:27] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:35:31,676 - INFO - File saved to temporary location: /tmp/tmp7ygz3l2m
+2025-03-07 07:35:31,818 - INFO - File /tmp/tmp7ygz3l2m uploaded to intelli-ana-bucket/netflix1.csv.
+2025-03-07 07:35:31,819 - INFO - 47.247.157.210 - - [07/Mar/2025 07:35:31] "POST /upload HTTP/1.1" 200 -
+2025-03-07 07:35:40,310 - INFO - 65.49.20.66 - - [07/Mar/2025 07:35:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 07:40:51,054 - INFO - Starting Flask application
+2025-03-07 07:40:51,061 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:40:51,061 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:40:59,112 - INFO - 47.247.157.210 - - [07/Mar/2025 07:40:59] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:01,094 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:01] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:02,322 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:02] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:05,489 - INFO - File saved to temporary location: /tmp/tmpbvxyldko
+2025-03-07 07:41:05,657 - ERROR - Error processing file netflix1.csv: 403 POST https://storage.googleapis.com/upload/storage/v1/b/imm-analytics/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2607, in _prep_and_do_upload
+    created_json = self._do_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2413, in _do_upload
+    response = self._do_multipart_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 1926, in _do_multipart_upload
+    response = upload.transmit(
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/upload.py", line 153, in transmit
+    return _request_helpers.wait_and_retry(
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/upload.py", line 149, in retriable_request
+    self._process_response(result)
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/_upload.py", line 125, in _process_response
+    _helpers.require_status_code(response, (http.client.OK,), self._get_status_code)
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/_helpers.py", line 108, in require_status_code
+    raise common.InvalidResponse(
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 98, in upload_file
+    upload_to_gcs(GCP_BUCKET_NAME, file_path, destination_filename)
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 59, in upload_to_gcs
+    blob.upload_from_filename(file_path)
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2929, in upload_from_filename
+    self._handle_filename_and_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2799, in _handle_filename_and_upload
+    self._prep_and_do_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2625, in _prep_and_do_upload
+    _raise_from_invalid_response(exc)
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 4791, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.Forbidden: 403 POST https://storage.googleapis.com/upload/storage/v1/b/imm-analytics/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+
+2025-03-07 07:41:05,659 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:05] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:41:08,638 - INFO - File saved to temporary location: /tmp/tmpbrrxa26z
+2025-03-07 07:41:08,725 - ERROR - Error processing file netflix1.csv: 403 POST https://storage.googleapis.com/upload/storage/v1/b/imm-analytics/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2607, in _prep_and_do_upload
+    created_json = self._do_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2413, in _do_upload
+    response = self._do_multipart_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 1926, in _do_multipart_upload
+    response = upload.transmit(
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/upload.py", line 153, in transmit
+    return _request_helpers.wait_and_retry(
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/upload.py", line 149, in retriable_request
+    self._process_response(result)
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/_upload.py", line 125, in _process_response
+    _helpers.require_status_code(response, (http.client.OK,), self._get_status_code)
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/_helpers.py", line 108, in require_status_code
+    raise common.InvalidResponse(
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 98, in upload_file
+    upload_to_gcs(GCP_BUCKET_NAME, file_path, destination_filename)
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 59, in upload_to_gcs
+    blob.upload_from_filename(file_path)
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2929, in upload_from_filename
+    self._handle_filename_and_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2799, in _handle_filename_and_upload
+    self._prep_and_do_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2625, in _prep_and_do_upload
+    _raise_from_invalid_response(exc)
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 4791, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.Forbidden: 403 POST https://storage.googleapis.com/upload/storage/v1/b/imm-analytics/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+
+2025-03-07 07:41:08,726 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:08] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:41:15,524 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:15] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:16,473 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:16] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:16,639 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:16] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:16,785 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:16] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:41:22,271 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:41:38,753 - INFO - File saved to temporary location: /tmp/tmpni9__pyf
+2025-03-07 07:41:38,930 - ERROR - Error processing file House Price India.csv: 403 POST https://storage.googleapis.com/upload/storage/v1/b/imm-analytics/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2607, in _prep_and_do_upload
+    created_json = self._do_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2413, in _do_upload
+    response = self._do_multipart_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 1926, in _do_multipart_upload
+    response = upload.transmit(
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/upload.py", line 153, in transmit
+    return _request_helpers.wait_and_retry(
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/requests/upload.py", line 149, in retriable_request
+    self._process_response(result)
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/_upload.py", line 125, in _process_response
+    _helpers.require_status_code(response, (http.client.OK,), self._get_status_code)
+  File "/opt/conda/lib/python3.10/site-packages/google/resumable_media/_helpers.py", line 108, in require_status_code
+    raise common.InvalidResponse(
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 98, in upload_file
+    upload_to_gcs(GCP_BUCKET_NAME, file_path, destination_filename)
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 59, in upload_to_gcs
+    blob.upload_from_filename(file_path)
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2929, in upload_from_filename
+    self._handle_filename_and_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2799, in _handle_filename_and_upload
+    self._prep_and_do_upload(
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 2625, in _prep_and_do_upload
+    _raise_from_invalid_response(exc)
+  File "/opt/conda/lib/python3.10/site-packages/google/cloud/storage/blob.py", line 4791, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.Forbidden: 403 POST https://storage.googleapis.com/upload/storage/v1/b/imm-analytics/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "215549706431-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>)
+
+2025-03-07 07:41:38,932 - INFO - 47.247.157.210 - - [07/Mar/2025 07:41:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:43:01,280 - INFO - Starting Flask application
+2025-03-07 07:43:01,287 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:43:01,287 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:43:04,951 - INFO - 47.247.157.210 - - [07/Mar/2025 07:43:04] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:43:06,712 - INFO - 47.247.157.210 - - [07/Mar/2025 07:43:06] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:43:15,043 - INFO - 47.247.157.210 - - [07/Mar/2025 07:43:15] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:43:18,456 - INFO - File saved to temporary location: /tmp/tmpbjd7zgg9
+2025-03-07 07:43:18,680 - INFO - File /tmp/tmpbjd7zgg9 uploaded to intelli-ana-bucket/df.csv.
+2025-03-07 07:43:18,682 - INFO - 47.247.157.210 - - [07/Mar/2025 07:43:18] "POST /upload HTTP/1.1" 200 -
+2025-03-07 07:47:41,543 - INFO - File saved to temporary location: /tmp/tmpp23gk9sf
+2025-03-07 07:47:43,555 - INFO - 198.235.24.47 - - [07/Mar/2025 07:47:43] "[33mGET / HTTP/1.0[0m" 404 -

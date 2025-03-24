@@ -1,0 +1,46 @@
+2025-03-07 07:27:34,186 - INFO - Starting Flask application
+2025-03-07 07:27:34,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:27:34,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:32:02,490 - INFO - Starting Flask application
+2025-03-07 07:32:02,497 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:32:02,497 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:32:13,636 - INFO - 47.247.157.210 - - [07/Mar/2025 07:32:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:32:13,699 - INFO - 47.247.157.210 - - [07/Mar/2025 07:32:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 07:32:32,591 - INFO - 47.247.157.210 - - [07/Mar/2025 07:32:32] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:32:56,189 - INFO - 54.85.95.187 - - [07/Mar/2025 07:32:56] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:34:35,219 - INFO - File saved to temporary location: /tmp/tmp6j6r_l99
+2025-03-07 07:34:35,355 - INFO - File /tmp/tmp6j6r_l99 uploaded to intelli-ana-bucket/netflix1.csv.
+2025-03-07 07:34:35,355 - ERROR - Error processing file netflix1.csv: name 'os' is not defined
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 97, in upload_file
+    os.remove(file_path)
+NameError: name 'os' is not defined
+
+2025-03-07 07:34:35,356 - INFO - 47.247.157.210 - - [07/Mar/2025 07:34:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:34:49,450 - INFO - File saved to temporary location: /tmp/tmpdhqwfzvg
+2025-03-07 07:34:49,586 - INFO - File /tmp/tmpdhqwfzvg uploaded to intelli-ana-bucket/netflix1.csv.
+2025-03-07 07:34:49,586 - ERROR - Error processing file netflix1.csv: name 'os' is not defined
+Traceback (most recent call last):
+  File "/home/jupyter/IntelligenceAnalytics/file-vali/validation.py", line 97, in upload_file
+    os.remove(file_path)
+NameError: name 'os' is not defined
+
+2025-03-07 07:34:49,587 - INFO - 47.247.157.210 - - [07/Mar/2025 07:34:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-07 07:35:19,630 - INFO - Starting Flask application
+2025-03-07 07:35:19,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.160.0.3:5000
+2025-03-07 07:35:19,637 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 07:35:25,284 - INFO - 65.49.20.66 - - [07/Mar/2025 07:35:25] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 07:35:27,473 - INFO - 47.247.157.210 - - [07/Mar/2025 07:35:27] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-07 07:35:31,676 - INFO - File saved to temporary location: /tmp/tmp7ygz3l2m
+2025-03-07 07:35:31,818 - INFO - File /tmp/tmp7ygz3l2m uploaded to intelli-ana-bucket/netflix1.csv.
+2025-03-07 07:35:31,819 - INFO - 47.247.157.210 - - [07/Mar/2025 07:35:31] "POST /upload HTTP/1.1" 200 -
+2025-03-07 07:35:40,310 - INFO - 65.49.20.66 - - [07/Mar/2025 07:35:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

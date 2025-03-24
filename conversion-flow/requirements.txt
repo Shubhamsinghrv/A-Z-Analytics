@@ -1,0 +1,5 @@
+flask 
+pandas
+gcsfs
+pyarrow
+google-cloud-storage

@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+scikit-learn
+google-cloud-storage
+pyarrow
+flask
+google-cloud-pubsub
